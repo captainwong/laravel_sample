@@ -27,7 +27,7 @@ class UsersController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->password)
-        ]);
+        ]); 
 
         session()->flash('success', '欢迎，您将在这里开启一段新的旅程~');
 
