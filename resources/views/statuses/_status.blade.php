@@ -21,4 +21,3 @@
         </form>
     @endcan
 </li>
-<hr>
